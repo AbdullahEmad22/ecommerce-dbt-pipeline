@@ -104,6 +104,7 @@ ecommerce-dbt-pipeline/                 # Repository Root
 ├── seeds/                              # Static CSV file loaded via "dbt seed"
 │   └── ecommerce_sales.csv      
 │
+├── requirements.txt                    # Python dependencies
 ├── .gitignore                          # Files and directories to be ignored by Git
 ├── Dockerfile                          # Docker image configuration for dbt
 ├── docker-compose.yml                  # Docker services configuration
